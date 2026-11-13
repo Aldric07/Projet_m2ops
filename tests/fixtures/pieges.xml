@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Flux synthétique : les pièges vus pendant la veille du TD 1. -->
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Flux de test</title>
+    <link>https://exemple.test/</link>
+    <description>Pièges : texte intégral, HTML, extrait trop long, item sans lien, item sans date</description>
+    <item>
+      <title>Article avec &lt;b&gt;texte intégral&lt;/b&gt; &amp; auteur</title>
+      <link>https://exemple.test/article-1</link>
+      <guid>exemple-1</guid>
+      <pubDate>Fri, 13 Nov 2026 06:00:00 +0100</pubDate>
+      <dc:creator>Jeanne Journaliste</dc:creator>
+      <description><![CDATA[<p>Un <strong>chapeau</strong> court.</p>]]></description>
+      <content:encoded><![CDATA[<p>TEXTE INTEGRAL QUI NE DOIT JAMAIS ETRE STOCKE.</p>]]></content:encoded>
+      <category>Politique</category>
+      <category>France</category>
+    </item>
+    <item>
+      <title>Article à l'extrait trop long</title>
+      <link>https://exemple.test/article-2</link>
+      <description>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum</description>
+    </item>
+    <item>
+      <title>Item sans lien : à ignorer</title>
+      <description>Pas de lien, donc pas de « où lire la suite ».</description>
+    </item>
+  </channel>
+</rss>

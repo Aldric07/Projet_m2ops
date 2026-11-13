@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+# Lance l'environnement de dev : Postgres en fond, puis une collecte.
+# Usage : bin/dev [--source "Sud Ouest"]
+set -eu
+cd "$(dirname "$0")/.."
+docker compose up -d --build --wait postgres
+docker compose run --rm --build app "$@"
+echo "Brut écrit dans le volume 'raw'. Pour le lire :"
+echo "  docker compose run --rm --entrypoint sh app -c 'cat /app/data/raw/*/*.json'"

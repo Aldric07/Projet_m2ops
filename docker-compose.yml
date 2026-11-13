@@ -1,0 +1,34 @@
+# Environnement de dev de La gazette : c'est notre infrastructure en code.
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: gazette
+      POSTGRES_USER: gazette
+      # Mot de passe de dev uniquement ; à surcharger dans un fichier .env non commité.
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-gazette-dev}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./infra/postgres/init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U gazette -d gazette"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  app:
+    build:
+      context: .
+      target: runtime
+    image: gazette:dev
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      DATABASE_URL: postgresql://gazette:${POSTGRES_PASSWORD:-gazette-dev}@postgres:5432/gazette
+    volumes:
+      - raw:/app/data
+
+volumes:
+  pgdata:
+  raw:

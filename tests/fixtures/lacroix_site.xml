@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <language>fr</language>
+    <lastBuildDate>Fri, 13 Nov 2026 14:35:38 +0100</lastBuildDate>
+    <title>La Croix.com - Les derniers articles : La Croix</title>
+    <description>La Croix.com - Les derniers articles : La Croix</description>
+    <link>https://www.la-croix.com/</link>
+    <item>
+      <title>Au bord de la route, la Providence : récit d’un tour de France en stop, pour parler spiritualité</title>
+      <link>https://www.la-croix.com/religion/au-bord-de-la-route-la-providence-recit-d-un-tour-de-france-en-stop-pour-parler-spiritualite-20261113</link>
+      <pubDate>Fri, 13 Nov 2026 13:54:35 +0100</pubDate>
+      <description>Cet été, Youna Rivallain, journaliste au service religion de La Croix, a traversé la France en stop pour demander aux automobilistes : « Dieu, c’est qui pour vous ? » Dans notre podcast « L’Envers du récit », elle raconte les coulisses de son voyage, de Massy à Nantes, en passant par Palavas-les-Flots et Biarritz.</description>
+      <guid>https://www.la-croix.com/religion/au-bord-de-la-route-la-providence-recit-d-un-tour-de-france-en-stop-pour-parler-spiritualite-20261113</guid>
+      <dc:creator>Réalisation : Célestine Albert-Steward, Théo Boulenger. Supervision : Cécile Casciano, Paul de Coustin</dc:creator>
+      <enclosure url="https://i.la-croix.com/x/2026/11/13/2586205-envers-du-recit-podcast-la-croix-2026.jpg" length="100000" type="image/jpeg"/>
+    </item>
+<item>
+      <title>Outlook hors service : ce que l’on sait de la panne mondiale qui touche Microsoft</title>
+      <link>https://www.la-croix.com/microsoft-peine-a-reparer-la-panne-mondiale-d-outlook-20261113</link>
+      <pubDate>Fri, 13 Nov 2026 12:54:13 +0100</pubDate>
+      <description>Une panne mondiale frappe Outlook depuis jeudi 12 novembre, paralysant entreprises et gouvernements dans 74 pays. Le géant américain cherche des solutions alternatives après l’échec de ses premières mesures. Voici ce que l’on sait.</description>
+      <guid>https://www.la-croix.com/microsoft-peine-a-reparer-la-panne-mondiale-d-outlook-20261113</guid>
+      <dc:creator>La Croix (avec AFP)</dc:creator>
+      <enclosure url="https://i.la-croix.com/x/2026/11/13/2588273-des-dizaines-de-milliers-d-utilisateurs-ne-pouvaie.jpg" length="100000" type="image/jpeg"/>
+    </item>
+<item>
+      <title>Quand le repaire de brigands devient une maison de prière</title>
+      <link>https://www.la-croix.com/religion/quand-le-repaire-de-brigands-devient-une-maison-de-priere-20261110</link>
+      <pubDate>Fri, 13 Nov 2026 12:29:21 +0100</pubDate>
+      <description>Des femmes, des hommes et des dieux. À dix kilomètres de Jérusalem, saint Chariton, victime d’un enlèvement au IVe siècle, a fait du lieu de sa détention un ermitage, puis un monastère. Un lieu de désolation, constate notre chroniqueuse Marie-Farouza Maximos, transfiguré au fil des siècles par la prière.</description>
+      <guid>https://www.la-croix.com/religion/quand-le-repaire-de-brigands-devient-une-maison-de-priere-20261110</guid>
+      <dc:creator></dc:creator>
+      <enclosure url="https://i.la-croix.com/x/2026/03/09/23565902-wp-r-marie-farouza-maximos-credit-magnus-aronsonjp.jpg" length="100000" type="image/jpeg"/>
+    </item>
+  </channel>
+</rss>

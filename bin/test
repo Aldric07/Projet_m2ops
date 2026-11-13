@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+# Lint + tests dans un conteneur : seul Docker est nécessaire.
+set -eu
+cd "$(dirname "$0")/.."
+docker build --target test -t gazette:test .
+docker run --rm gazette:test
