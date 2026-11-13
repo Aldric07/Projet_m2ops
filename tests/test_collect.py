@@ -120,4 +120,4 @@ def test_write_items(tmp_path):
 
 
 def test_slugify():
-    assert slugify("Dernières Nouvelles d'Alsace") == "dernieres-nouvelles-d-alsace"
+    assert slugify("Dernières Nouvelles d'Alsace") == "CASSE-EXPRES"
